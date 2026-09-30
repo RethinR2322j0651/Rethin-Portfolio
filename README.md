@@ -1,80 +1,75 @@
-# Harsh Goyal — Developer & Designer Portfolio
+# Rethin R — Software Developer & Cybersecurity Enthusiast
 
-A dark-themed personal portfolio for **Harsh Goyal** — Computer Science graduate from NSUT, currently a Content R&D Trainee at PhysicsWallah. Focused on UI/UX, front-end development, and GenAI integration.
+A modern personal portfolio website for **Rethin R**, a BCA graduate passionate about software development, cybersecurity, cloud computing, and artificial intelligence.
 
-Built with **React + TypeScript + Vite + Tailwind CSS + Framer Motion**. Designed for one-click deployment on **Vercel**.
+The portfolio showcases my projects, technical skills, internships, certifications, and professional interests.
 
-## Stack
+## About
 
-- React 18 / TypeScript
-- Vite (build tool)
-- Tailwind CSS (utility-first styling)
-- Framer Motion (animations + scroll effects)
-- Lucide React (icons)
-- Kanit font (Google Fonts, weights 300–900)
+I am a BCA graduate interested in building software applications, exploring cybersecurity, working with cloud technologies, and developing practical AI/ML solutions.
 
-## Sections
+I have hands-on experience through academic projects, internships, certifications, self-learning, and practical development work.
 
-1. **Hero** — name, tagline, magnetic-hover portrait
-2. **About** — bio + skills grouped by Languages / Frameworks / Tools / AI
-3. **Services** — UI/UX Design, Web Design, Front-end Development, GenAI Integration
-4. **Projects** — sticky-stacking cards for AI Tutor, PiLearn, ResumeIQ, Notch
-5. **Contact** — Email, WhatsApp, LinkedIn, GitHub
+## Tech Stack
 
-## Run locally
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- JavaScript
+- HTML
+- CSS
 
-```bash
-npm install
-npm run dev      # http://localhost:5173
-npm run build    # production build → /dist
-npm run preview  # serve /dist locally
-```
+## Featured Projects
 
-## Deploy to Vercel
+### On-Road Breakdown & Fuel Assistance System
+A full-stack web application designed to help users request roadside assistance, locate service providers, and manage assistance requests.
 
-Push to GitHub → import the repo at [vercel.com/new](https://vercel.com/new) → click Deploy. No environment variables needed.
+**Technologies:** Python, Flask, HTML, CSS, JavaScript, MySQL/SQLite
 
-## Project structure
+### To-Do App with Login
+An Android task management application with user registration, login, and local task management using SQLite.
 
-```
-src/
-├── App.tsx                    # composes all sections
-├── main.tsx                   # React entry
-├── index.css                  # global styles + .hero-heading gradient
-└── components/
-    ├── HeroSection.tsx        # navbar, massive heading, magnetic portrait
-    ├── AboutSection.tsx       # bio, animated text, skills grid
-    ├── ServicesSection.tsx    # white section, 4 numbered services
-    ├── ProjectsSection.tsx    # sticky-stacking project cards
-    ├── ContactSection.tsx     # 4 contact methods with icons
-    │
-    ├── ContactButton.tsx      # gradient pill CTA
-    ├── LiveProjectButton.tsx  # ghost outline pill
-    ├── FadeIn.tsx             # whileInView animation wrapper
-    ├── Magnet.tsx             # mouse-following magnetic hover
-    └── AnimatedText.tsx       # char-by-char scroll-driven reveal
-```
+**Technologies:** Java, XML, Android Studio, SQLite
 
-## Featured projects
+### Movie Recommendation System
+An AI/ML project that recommends movies based on user interests and ratings.
 
-| Project | Live | Built with |
-|---|---|---|
-| ResumeIQ | [resumeiq-harsh.vercel.app](https://resumeiq-harsh.vercel.app) | React, Gemini API, Vercel |
-| Notch | [notch-zeta.vercel.app](https://notch-zeta.vercel.app) | React, Tailwind, Framer Motion |
+**Technologies:** Python, Machine Learning, Data Science
 
-## Customisation
+### Cybersecurity Log Monitoring & Threat Detection System
+A cybersecurity project focused on monitoring system logs and identifying suspicious activities and potential security threats.
 
-| Want to change | Open this file |
-|---|---|
-| Name, nav links, hero text | `src/components/HeroSection.tsx` |
-| About paragraph, skills list | `src/components/AboutSection.tsx` |
-| Services list | `src/components/ServicesSection.tsx` (`SERVICES` array) |
-| Projects, screenshots, live URLs | `src/components/ProjectsSection.tsx` (`PROJECTS` array) |
-| Contact methods | `src/components/ContactSection.tsx` (`CONTACT_METHODS` array) |
-| Project screenshots | drop new images in `public/` and reference as `/filename.png` |
-| Brand gradient, font, dark colour | `src/index.css` and `tailwind.config.js` |
-| Page title, meta description | `index.html` |
+**Technologies:** Python, Linux, Log Analysis, Cybersecurity
 
-## Credits
+## Certifications
 
-Designed & built by **Harsh Goyal** · [LinkedIn](https://www.linkedin.com/in/harsh-goyal-7900b2256/) · [GitHub](https://github.com/harshgoyal27)
+- Cloud Computing — JB International Skill Park, Kochi
+- Cybersecurity — JB International Skill Park, Kochi
+- Artificial Intelligence — JB International Skill Park, Kochi
+- Python for Data Science — IBM SkillsBuild
+- Prompt Engineering — IBM SkillsBuild
+- Cyber Job Simulation — Deloitte
+
+## Internship
+
+### Artificial Intelligence & Machine Learning
+**Cognevance Technologies**
+
+Virtual internship focused on artificial intelligence and machine learning concepts and practical learning.
+
+### Cybersecurity Internship
+**Spectrum Softtech Solutions, Kochi**
+
+Hands-on cybersecurity learning and practical exposure to security concepts and projects.
+
+## Portfolio
+
+This portfolio was built using React and TypeScript with a modern interactive design.
+
+## Author
+
+**Rethin R**
+
+BCA Graduate  
+Software Development | Cybersecurity | Cloud Computing | AI/ML
